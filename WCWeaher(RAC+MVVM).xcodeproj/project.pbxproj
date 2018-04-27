@@ -1,0 +1,1191 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35CAFC392092BF2200163DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC382092BF2200163DED /* Assets.xcassets */; };
+		35CAFC3F2092BF2200163DED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFC3E2092BF2200163DED /* main.m */; };
+		35CAFC492092BF2300163DED /* WCWeaher_RAC_MVVM_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFC482092BF2300163DED /* WCWeaher_RAC_MVVM_Tests.m */; };
+		35CAFC542092BF2300163DED /* WCWeaher_RAC_MVVM_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFC532092BF2300163DED /* WCWeaher_RAC_MVVM_UITests.m */; };
+		35CAFCED2092BF9100163DED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFC612092BF9000163DED /* AppDelegate.m */; };
+		35CAFCEE2092BF9100163DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC632092BF9000163DED /* LaunchScreen.storyboard */; };
+		35CAFCEF2092BF9100163DED /* LaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC662092BF9000163DED /* LaunchViewController.xib */; };
+		35CAFCF02092BF9100163DED /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFC672092BF9000163DED /* LaunchViewController.m */; };
+		35CAFCF12092BF9100163DED /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFC6B2092BF9000163DED /* HomeViewModel.m */; };
+		35CAFCF22092BF9100163DED /* WHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC6E2092BF9000163DED /* WHomeViewController.xib */; };
+		35CAFCF32092BF9100163DED /* WHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFC702092BF9000163DED /* WHomeViewController.m */; };
+		35CAFCF42092BF9100163DED /* JSWeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFC722092BF9000163DED /* JSWeatherModel.m */; };
+		35CAFD052092BF9100163DED /* 49.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC8F2092BF9000163DED /* 49.png */; };
+		35CAFD062092BF9100163DED /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC902092BF9000163DED /* 58.png */; };
+		35CAFD072092BF9100163DED /* 天气图标对照表.txt in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC912092BF9000163DED /* 天气图标对照表.txt */; };
+		35CAFD082092BF9100163DED /* 99.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC922092BF9000163DED /* 99.png */; };
+		35CAFD092092BF9100163DED /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC932092BF9000163DED /* 8.png */; };
+		35CAFD0A2092BF9100163DED /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC942092BF9000163DED /* 9.png */; };
+		35CAFD0B2092BF9100163DED /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC952092BF9000163DED /* 14.png */; };
+		35CAFD0C2092BF9100163DED /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC962092BF9000163DED /* 28.png */; };
+		35CAFD0D2092BF9100163DED /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC972092BF9000163DED /* 29.png */; };
+		35CAFD0E2092BF9100163DED /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC982092BF9000163DED /* 15.png */; };
+		35CAFD0F2092BF9100163DED /* 302.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC992092BF9000163DED /* 302.png */; };
+		35CAFD102092BF9100163DED /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC9A2092BF9000163DED /* 17.png */; };
+		35CAFD112092BF9100163DED /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC9B2092BF9000163DED /* 16.png */; };
+		35CAFD122092BF9100163DED /* 301.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC9C2092BF9000163DED /* 301.png */; };
+		35CAFD132092BF9100163DED /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC9D2092BF9000163DED /* 12.png */; };
+		35CAFD142092BF9100163DED /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC9E2092BF9000163DED /* 13.png */; };
+		35CAFD152092BF9100163DED /* 39.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFC9F2092BF9000163DED /* 39.png */; };
+		35CAFD162092BF9100163DED /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA02092BF9000163DED /* 11.png */; };
+		35CAFD172092BF9100163DED /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA12092BF9000163DED /* 10.png */; };
+		35CAFD182092BF9100163DED /* 21.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA22092BF9000163DED /* 21.png */; };
+		35CAFD192092BF9100163DED /* 20.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA32092BF9000163DED /* 20.png */; };
+		35CAFD1A2092BF9100163DED /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA42092BF9000163DED /* 22.png */; };
+		35CAFD1B2092BF9100163DED /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA52092BF9000163DED /* 23.png */; };
+		35CAFD1C2092BF9100163DED /* 27.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA62092BF9000163DED /* 27.png */; };
+		35CAFD1D2092BF9100163DED /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA72092BF9000163DED /* 32.png */; };
+		35CAFD1E2092BF9100163DED /* 26.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA82092BF9000163DED /* 26.png */; };
+		35CAFD1F2092BF9100163DED /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCA92092BF9000163DED /* 18.png */; };
+		35CAFD202092BF9100163DED /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCAA2092BF9000163DED /* 30.png */; };
+		35CAFD212092BF9100163DED /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCAB2092BF9000163DED /* 24.png */; };
+		35CAFD222092BF9100163DED /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCAC2092BF9000163DED /* 25.png */; };
+		35CAFD232092BF9100163DED /* 31.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCAD2092BF9000163DED /* 31.png */; };
+		35CAFD242092BF9100163DED /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCAE2092BF9000163DED /* 19.png */; };
+		35CAFD252092BF9100163DED /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCAF2092BF9000163DED /* 4.png */; };
+		35CAFD262092BF9100163DED /* 56.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB02092BF9000163DED /* 56.png */; };
+		35CAFD272092BF9100163DED /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB12092BF9000163DED /* 5.png */; };
+		35CAFD282092BF9100163DED /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB22092BF9000163DED /* 57.png */; };
+		35CAFD292092BF9100163DED /* 55.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB32092BF9000163DED /* 55.png */; };
+		35CAFD2A2092BF9100163DED /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB42092BF9000163DED /* 7.png */; };
+		35CAFD2B2092BF9100163DED /* 54.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB52092BF9000163DED /* 54.png */; };
+		35CAFD2C2092BF9100163DED /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB62092BF9000163DED /* 6.png */; };
+		35CAFD2D2092BF9100163DED /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB72092BF9000163DED /* 2.png */; };
+		35CAFD2E2092BF9100163DED /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB82092BF9000163DED /* 3.png */; };
+		35CAFD2F2092BF9100163DED /* 53.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCB92092BF9000163DED /* 53.png */; };
+		35CAFD302092BF9100163DED /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCBA2092BF9000163DED /* 1.png */; };
+		35CAFD312092BF9100163DED /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCBB2092BF9000163DED /* 0.png */; };
+		35CAFD322092BF9100163DED /* 洗车02.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCBD2092BF9000163DED /* 洗车02.png */; };
+		35CAFD332092BF9100163DED /* 跑步02.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCBE2092BF9000163DED /* 跑步02.png */; };
+		35CAFD342092BF9100163DED /* 空调02.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCBF2092BF9000163DED /* 空调02.png */; };
+		35CAFD352092BF9100163DED /* 感冒02.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCC02092BF9000163DED /* 感冒02.png */; };
+		35CAFD362092BF9100163DED /* 空气污染02.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCC12092BF9000163DED /* 空气污染02.png */; };
+		35CAFD372092BF9100163DED /* 穿衣02.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCC22092BF9000163DED /* 穿衣02.png */; };
+		35CAFD382092BF9100163DED /* 紫外线02.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCC32092BF9000163DED /* 紫外线02.png */; };
+		35CAFD392092BF9100163DED /* Simulator Screen Shot - iPhone 8 Plus - 2018-04-26 at 17.09.10.png in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCC42092BF9000163DED /* Simulator Screen Shot - iPhone 8 Plus - 2018-04-26 at 17.09.10.png */; };
+		35CAFD3A2092BF9100163DED /* wbg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFCC52092BF9000163DED /* wbg.jpg */; };
+		35CAFD3B2092BF9100163DED /* UITextView+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCC92092BF9100163DED /* UITextView+WCBlock.m */; };
+		35CAFD3C2092BF9100163DED /* UIControl+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCCB2092BF9100163DED /* UIControl+WCBlock.m */; };
+		35CAFD3D2092BF9100163DED /* NSObject+WCKVOBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCCC2092BF9100163DED /* NSObject+WCKVOBlock.m */; };
+		35CAFD3E2092BF9100163DED /* UISegmentedControl+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCCE2092BF9100163DED /* UISegmentedControl+WCBlock.m */; };
+		35CAFD3F2092BF9100163DED /* UITextField+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCCF2092BF9100163DED /* UITextField+WCBlock.m */; };
+		35CAFD402092BF9100163DED /* UIGestureRecognizer+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCD22092BF9100163DED /* UIGestureRecognizer+WCBlock.m */; };
+		35CAFD412092BF9100163DED /* UISwitch+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCD42092BF9100163DED /* UISwitch+WCBlock.m */; };
+		35CAFD422092BF9100163DED /* UIView+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCD82092BF9100163DED /* UIView+WCBlock.m */; };
+		35CAFD432092BF9100163DED /* UIAlertView+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCD92092BF9100163DED /* UIAlertView+WCBlock.m */; };
+		35CAFD442092BF9100163DED /* UISlider+WCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCDB2092BF9100163DED /* UISlider+WCBlock.m */; };
+		35CAFD452092BF9100163DED /* Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCDE2092BF9100163DED /* Request.m */; };
+		35CAFD462092BF9100163DED /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCE02092BF9100163DED /* HttpManager.m */; };
+		35CAFD472092BF9100163DED /* BaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCE42092BF9100163DED /* BaseViewModel.m */; };
+		35CAFD482092BF9100163DED /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFCEB2092BF9100163DED /* LocationService.m */; };
+		35CAFD622092C0C300163DED /* WDailyTempView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFD4B2092C0C000163DED /* WDailyTempView.xib */; };
+		35CAFD632092C0C300163DED /* WDailyIndexCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFD4C2092C0C000163DED /* WDailyIndexCell.m */; };
+		35CAFD642092C0C300163DED /* WDailyItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFD4D2092C0C000163DED /* WDailyItem.xib */; };
+		35CAFD652092C0C300163DED /* WHourlyPreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFD4F2092C0C100163DED /* WHourlyPreCell.m */; };
+		35CAFD662092C0C300163DED /* WHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFD512092C0C100163DED /* WHeaderView.xib */; };
+		35CAFD672092C0C300163DED /* WTodayWeatherHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFD522092C0C100163DED /* WTodayWeatherHeader.m */; };
+		35CAFD682092C0C300163DED /* WHourlyPreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFD542092C0C100163DED /* WHourlyPreCell.xib */; };
+		35CAFD692092C0C300163DED /* WDailyPreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFD552092C0C100163DED /* WDailyPreCell.m */; };
+		35CAFD6A2092C0C300163DED /* WDailyPreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFD562092C0C100163DED /* WDailyPreCell.xib */; };
+		35CAFD6B2092C0C300163DED /* WHourlyTempView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFD582092C0C200163DED /* WHourlyTempView.xib */; };
+		35CAFD6C2092C0C300163DED /* WTodayWeatherHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFD5A2092C0C200163DED /* WTodayWeatherHeader.xib */; };
+		35CAFD6D2092C0C300163DED /* WDailyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFD5B2092C0C200163DED /* WDailyItem.m */; };
+		35CAFD6E2092C0C300163DED /* WDailyTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFD5D2092C0C300163DED /* WDailyTempView.m */; };
+		35CAFD6F2092C0C300163DED /* WHourlyTempView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFD5E2092C0C300163DED /* WHourlyTempView.m */; };
+		35CAFD702092C0C300163DED /* WHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CAFD602092C0C300163DED /* WHeaderView.m */; };
+		35CAFD712092C0C300163DED /* WDailyIndexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35CAFD612092C0C300163DED /* WDailyIndexCell.xib */; };
+		50E36F1C7FFC25C168F59287 /* libPods-WCWeaher(RAC+MVVM).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CDBEC2E60E46F5128BE5A25 /* libPods-WCWeaher(RAC+MVVM).a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35CAFC452092BF2300163DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35CAFC242092BF2200163DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35CAFC2B2092BF2200163DED;
+			remoteInfo = "WCWeaher(RAC+MVVM)";
+		};
+		35CAFC502092BF2300163DED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35CAFC242092BF2200163DED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35CAFC2B2092BF2200163DED;
+			remoteInfo = "WCWeaher(RAC+MVVM)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35CAFC2C2092BF2200163DED /* WCWeaher(RAC+MVVM).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WCWeaher(RAC+MVVM).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CAFC382092BF2200163DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35CAFC3D2092BF2200163DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CAFC3E2092BF2200163DED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35CAFC442092BF2300163DED /* WCWeaher(RAC+MVVM)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCWeaher(RAC+MVVM)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CAFC482092BF2300163DED /* WCWeaher_RAC_MVVM_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCWeaher_RAC_MVVM_Tests.m; sourceTree = "<group>"; };
+		35CAFC4A2092BF2300163DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CAFC4F2092BF2300163DED /* WCWeaher(RAC+MVVM)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WCWeaher(RAC+MVVM)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CAFC532092BF2300163DED /* WCWeaher_RAC_MVVM_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCWeaher_RAC_MVVM_UITests.m; sourceTree = "<group>"; };
+		35CAFC552092BF2300163DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CAFC612092BF9000163DED /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35CAFC622092BF9000163DED /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35CAFC632092BF9000163DED /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35CAFC662092BF9000163DED /* LaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchViewController.xib; sourceTree = "<group>"; };
+		35CAFC672092BF9000163DED /* LaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
+		35CAFC682092BF9000163DED /* LaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		35CAFC6B2092BF9000163DED /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
+		35CAFC6C2092BF9000163DED /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
+		35CAFC6E2092BF9000163DED /* WHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WHomeViewController.xib; sourceTree = "<group>"; };
+		35CAFC6F2092BF9000163DED /* WHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHomeViewController.h; sourceTree = "<group>"; };
+		35CAFC702092BF9000163DED /* WHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHomeViewController.m; sourceTree = "<group>"; };
+		35CAFC722092BF9000163DED /* JSWeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSWeatherModel.m; sourceTree = "<group>"; };
+		35CAFC732092BF9000163DED /* JSWeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSWeatherModel.h; sourceTree = "<group>"; };
+		35CAFC8F2092BF9000163DED /* 49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 49.png; sourceTree = "<group>"; };
+		35CAFC902092BF9000163DED /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		35CAFC912092BF9000163DED /* 天气图标对照表.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "天气图标对照表.txt"; sourceTree = "<group>"; };
+		35CAFC922092BF9000163DED /* 99.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 99.png; sourceTree = "<group>"; };
+		35CAFC932092BF9000163DED /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		35CAFC942092BF9000163DED /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		35CAFC952092BF9000163DED /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		35CAFC962092BF9000163DED /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28.png; sourceTree = "<group>"; };
+		35CAFC972092BF9000163DED /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
+		35CAFC982092BF9000163DED /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 15.png; sourceTree = "<group>"; };
+		35CAFC992092BF9000163DED /* 302.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 302.png; sourceTree = "<group>"; };
+		35CAFC9A2092BF9000163DED /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 17.png; sourceTree = "<group>"; };
+		35CAFC9B2092BF9000163DED /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		35CAFC9C2092BF9000163DED /* 301.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 301.png; sourceTree = "<group>"; };
+		35CAFC9D2092BF9000163DED /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		35CAFC9E2092BF9000163DED /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		35CAFC9F2092BF9000163DED /* 39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 39.png; sourceTree = "<group>"; };
+		35CAFCA02092BF9000163DED /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		35CAFCA12092BF9000163DED /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		35CAFCA22092BF9000163DED /* 21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 21.png; sourceTree = "<group>"; };
+		35CAFCA32092BF9000163DED /* 20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 20.png; sourceTree = "<group>"; };
+		35CAFCA42092BF9000163DED /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		35CAFCA52092BF9000163DED /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 23.png; sourceTree = "<group>"; };
+		35CAFCA62092BF9000163DED /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27.png; sourceTree = "<group>"; };
+		35CAFCA72092BF9000163DED /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
+		35CAFCA82092BF9000163DED /* 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26.png; sourceTree = "<group>"; };
+		35CAFCA92092BF9000163DED /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 18.png; sourceTree = "<group>"; };
+		35CAFCAA2092BF9000163DED /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30.png; sourceTree = "<group>"; };
+		35CAFCAB2092BF9000163DED /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 24.png; sourceTree = "<group>"; };
+		35CAFCAC2092BF9000163DED /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25.png; sourceTree = "<group>"; };
+		35CAFCAD2092BF9000163DED /* 31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 31.png; sourceTree = "<group>"; };
+		35CAFCAE2092BF9000163DED /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		35CAFCAF2092BF9000163DED /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		35CAFCB02092BF9000163DED /* 56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 56.png; sourceTree = "<group>"; };
+		35CAFCB12092BF9000163DED /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		35CAFCB22092BF9000163DED /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		35CAFCB32092BF9000163DED /* 55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 55.png; sourceTree = "<group>"; };
+		35CAFCB42092BF9000163DED /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		35CAFCB52092BF9000163DED /* 54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 54.png; sourceTree = "<group>"; };
+		35CAFCB62092BF9000163DED /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		35CAFCB72092BF9000163DED /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		35CAFCB82092BF9000163DED /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		35CAFCB92092BF9000163DED /* 53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 53.png; sourceTree = "<group>"; };
+		35CAFCBA2092BF9000163DED /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		35CAFCBB2092BF9000163DED /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		35CAFCBD2092BF9000163DED /* 洗车02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "洗车02.png"; sourceTree = "<group>"; };
+		35CAFCBE2092BF9000163DED /* 跑步02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "跑步02.png"; sourceTree = "<group>"; };
+		35CAFCBF2092BF9000163DED /* 空调02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空调02.png"; sourceTree = "<group>"; };
+		35CAFCC02092BF9000163DED /* 感冒02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "感冒02.png"; sourceTree = "<group>"; };
+		35CAFCC12092BF9000163DED /* 空气污染02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "空气污染02.png"; sourceTree = "<group>"; };
+		35CAFCC22092BF9000163DED /* 穿衣02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "穿衣02.png"; sourceTree = "<group>"; };
+		35CAFCC32092BF9000163DED /* 紫外线02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫外线02.png"; sourceTree = "<group>"; };
+		35CAFCC42092BF9000163DED /* Simulator Screen Shot - iPhone 8 Plus - 2018-04-26 at 17.09.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 Plus - 2018-04-26 at 17.09.10.png"; sourceTree = "<group>"; };
+		35CAFCC52092BF9000163DED /* wbg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wbg.jpg; sourceTree = "<group>"; };
+		35CAFCC82092BF9100163DED /* UISwitch+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISwitch+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCC92092BF9100163DED /* UITextView+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCCA2092BF9100163DED /* UIGestureRecognizer+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCCB2092BF9100163DED /* UIControl+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCCC2092BF9100163DED /* NSObject+WCKVOBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WCKVOBlock.m"; sourceTree = "<group>"; };
+		35CAFCCD2092BF9100163DED /* UIView+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCCE2092BF9100163DED /* UISegmentedControl+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISegmentedControl+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCCF2092BF9100163DED /* UITextField+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCD02092BF9100163DED /* UISlider+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCD12092BF9100163DED /* UIAlertView+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCD22092BF9100163DED /* UIGestureRecognizer+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCD32092BF9100163DED /* UITextView+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCD42092BF9100163DED /* UISwitch+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISwitch+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCD52092BF9100163DED /* NSObject+WCKVOBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WCKVOBlock.h"; sourceTree = "<group>"; };
+		35CAFCD62092BF9100163DED /* UIControl+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCD72092BF9100163DED /* UISegmentedControl+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISegmentedControl+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCD82092BF9100163DED /* UIView+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCD92092BF9100163DED /* UIAlertView+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCDA2092BF9100163DED /* WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCBlock.h; sourceTree = "<group>"; };
+		35CAFCDB2092BF9100163DED /* UISlider+WCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+WCBlock.m"; sourceTree = "<group>"; };
+		35CAFCDC2092BF9100163DED /* UITextField+WCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+WCBlock.h"; sourceTree = "<group>"; };
+		35CAFCDE2092BF9100163DED /* Request.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Request.m; sourceTree = "<group>"; };
+		35CAFCDF2092BF9100163DED /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		35CAFCE02092BF9100163DED /* HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		35CAFCE12092BF9100163DED /* Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		35CAFCE42092BF9100163DED /* BaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewModel.m; sourceTree = "<group>"; };
+		35CAFCE52092BF9100163DED /* BaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewModel.h; sourceTree = "<group>"; };
+		35CAFCEB2092BF9100163DED /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		35CAFCEC2092BF9100163DED /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		35CAFD492092BFA900163DED /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		35CAFD4A2092C0C000163DED /* WDailyPreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDailyPreCell.h; sourceTree = "<group>"; };
+		35CAFD4B2092C0C000163DED /* WDailyTempView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDailyTempView.xib; sourceTree = "<group>"; };
+		35CAFD4C2092C0C000163DED /* WDailyIndexCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDailyIndexCell.m; sourceTree = "<group>"; };
+		35CAFD4D2092C0C000163DED /* WDailyItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDailyItem.xib; sourceTree = "<group>"; };
+		35CAFD4E2092C0C000163DED /* WHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHeaderView.h; sourceTree = "<group>"; };
+		35CAFD4F2092C0C100163DED /* WHourlyPreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHourlyPreCell.m; sourceTree = "<group>"; };
+		35CAFD502092C0C100163DED /* WHourlyTempView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHourlyTempView.h; sourceTree = "<group>"; };
+		35CAFD512092C0C100163DED /* WHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WHeaderView.xib; sourceTree = "<group>"; };
+		35CAFD522092C0C100163DED /* WTodayWeatherHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTodayWeatherHeader.m; sourceTree = "<group>"; };
+		35CAFD532092C0C100163DED /* WDailyTempView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDailyTempView.h; sourceTree = "<group>"; };
+		35CAFD542092C0C100163DED /* WHourlyPreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WHourlyPreCell.xib; sourceTree = "<group>"; };
+		35CAFD552092C0C100163DED /* WDailyPreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDailyPreCell.m; sourceTree = "<group>"; };
+		35CAFD562092C0C100163DED /* WDailyPreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDailyPreCell.xib; sourceTree = "<group>"; };
+		35CAFD572092C0C200163DED /* WTodayWeatherHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTodayWeatherHeader.h; sourceTree = "<group>"; };
+		35CAFD582092C0C200163DED /* WHourlyTempView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WHourlyTempView.xib; sourceTree = "<group>"; };
+		35CAFD592092C0C200163DED /* WDailyIndexCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDailyIndexCell.h; sourceTree = "<group>"; };
+		35CAFD5A2092C0C200163DED /* WTodayWeatherHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTodayWeatherHeader.xib; sourceTree = "<group>"; };
+		35CAFD5B2092C0C200163DED /* WDailyItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDailyItem.m; sourceTree = "<group>"; };
+		35CAFD5C2092C0C200163DED /* WDailyItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDailyItem.h; sourceTree = "<group>"; };
+		35CAFD5D2092C0C300163DED /* WDailyTempView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDailyTempView.m; sourceTree = "<group>"; };
+		35CAFD5E2092C0C300163DED /* WHourlyTempView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHourlyTempView.m; sourceTree = "<group>"; };
+		35CAFD5F2092C0C300163DED /* WHourlyPreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHourlyPreCell.h; sourceTree = "<group>"; };
+		35CAFD602092C0C300163DED /* WHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHeaderView.m; sourceTree = "<group>"; };
+		35CAFD612092C0C300163DED /* WDailyIndexCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WDailyIndexCell.xib; sourceTree = "<group>"; };
+		8CDBEC2E60E46F5128BE5A25 /* libPods-WCWeaher(RAC+MVVM).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WCWeaher(RAC+MVVM).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB4E3E9AE3FAB25101CD1A1 /* Pods-WCWeaher(RAC+MVVM).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCWeaher(RAC+MVVM).debug.xcconfig"; path = "Pods/Target Support Files/Pods-WCWeaher(RAC+MVVM)/Pods-WCWeaher(RAC+MVVM).debug.xcconfig"; sourceTree = "<group>"; };
+		F9EBB851EF4B53878E1D4F4D /* Pods-WCWeaher(RAC+MVVM).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCWeaher(RAC+MVVM).release.xcconfig"; path = "Pods/Target Support Files/Pods-WCWeaher(RAC+MVVM)/Pods-WCWeaher(RAC+MVVM).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35CAFC292092BF2200163DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E36F1C7FFC25C168F59287 /* libPods-WCWeaher(RAC+MVVM).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CAFC412092BF2300163DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CAFC4C2092BF2300163DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3327D4DC14CCF1CD3337E530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBEC2E60E46F5128BE5A25 /* libPods-WCWeaher(RAC+MVVM).a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35CAFC232092BF2200163DED = {
+			isa = PBXGroup;
+			children = (
+				35CAFC2E2092BF2200163DED /* WCWeaher(RAC+MVVM) */,
+				35CAFC472092BF2300163DED /* WCWeaher(RAC+MVVM)Tests */,
+				35CAFC522092BF2300163DED /* WCWeaher(RAC+MVVM)UITests */,
+				35CAFC2D2092BF2200163DED /* Products */,
+				3B70AE4B8331D9DCA95D0154 /* Pods */,
+				3327D4DC14CCF1CD3337E530 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35CAFC2D2092BF2200163DED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC2C2092BF2200163DED /* WCWeaher(RAC+MVVM).app */,
+				35CAFC442092BF2300163DED /* WCWeaher(RAC+MVVM)Tests.xctest */,
+				35CAFC4F2092BF2300163DED /* WCWeaher(RAC+MVVM)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35CAFC2E2092BF2200163DED /* WCWeaher(RAC+MVVM) */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC642092BF9000163DED /* App */,
+				35CAFC622092BF9000163DED /* AppDelegate.h */,
+				35CAFC612092BF9000163DED /* AppDelegate.m */,
+				35CAFC632092BF9000163DED /* LaunchScreen.storyboard */,
+				35CAFC382092BF2200163DED /* Assets.xcassets */,
+				35CAFC3D2092BF2200163DED /* Info.plist */,
+				35CAFC3E2092BF2200163DED /* main.m */,
+				35CAFD492092BFA900163DED /* PrefixHeader.pch */,
+			);
+			path = "WCWeaher(RAC+MVVM)";
+			sourceTree = "<group>";
+		};
+		35CAFC472092BF2300163DED /* WCWeaher(RAC+MVVM)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC482092BF2300163DED /* WCWeaher_RAC_MVVM_Tests.m */,
+				35CAFC4A2092BF2300163DED /* Info.plist */,
+			);
+			path = "WCWeaher(RAC+MVVM)Tests";
+			sourceTree = "<group>";
+		};
+		35CAFC522092BF2300163DED /* WCWeaher(RAC+MVVM)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC532092BF2300163DED /* WCWeaher_RAC_MVVM_UITests.m */,
+				35CAFC552092BF2300163DED /* Info.plist */,
+			);
+			path = "WCWeaher(RAC+MVVM)UITests";
+			sourceTree = "<group>";
+		};
+		35CAFC642092BF9000163DED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC652092BF9000163DED /* Guide */,
+				35CAFC692092BF9000163DED /* Home */,
+				35CAFC8D2092BF9000163DED /* Imgs */,
+				35CAFCC62092BF9100163DED /* Lib */,
+				35CAFCDD2092BF9100163DED /* Request */,
+				35CAFCE22092BF9100163DED /* Base */,
+				35CAFCEA2092BF9100163DED /* Tool */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		35CAFC652092BF9000163DED /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC662092BF9000163DED /* LaunchViewController.xib */,
+				35CAFC672092BF9000163DED /* LaunchViewController.m */,
+				35CAFC682092BF9000163DED /* LaunchViewController.h */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		35CAFC692092BF9000163DED /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC6A2092BF9000163DED /* ViewModel */,
+				35CAFC6D2092BF9000163DED /* Controller */,
+				35CAFC712092BF9000163DED /* Model */,
+				35CAFC742092BF9000163DED /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		35CAFC6A2092BF9000163DED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC6C2092BF9000163DED /* HomeViewModel.h */,
+				35CAFC6B2092BF9000163DED /* HomeViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		35CAFC6D2092BF9000163DED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC6F2092BF9000163DED /* WHomeViewController.h */,
+				35CAFC702092BF9000163DED /* WHomeViewController.m */,
+				35CAFC6E2092BF9000163DED /* WHomeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35CAFC712092BF9000163DED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC732092BF9000163DED /* JSWeatherModel.h */,
+				35CAFC722092BF9000163DED /* JSWeatherModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		35CAFC742092BF9000163DED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFD592092C0C200163DED /* WDailyIndexCell.h */,
+				35CAFD4C2092C0C000163DED /* WDailyIndexCell.m */,
+				35CAFD612092C0C300163DED /* WDailyIndexCell.xib */,
+				35CAFD5C2092C0C200163DED /* WDailyItem.h */,
+				35CAFD5B2092C0C200163DED /* WDailyItem.m */,
+				35CAFD4D2092C0C000163DED /* WDailyItem.xib */,
+				35CAFD4A2092C0C000163DED /* WDailyPreCell.h */,
+				35CAFD552092C0C100163DED /* WDailyPreCell.m */,
+				35CAFD562092C0C100163DED /* WDailyPreCell.xib */,
+				35CAFD532092C0C100163DED /* WDailyTempView.h */,
+				35CAFD5D2092C0C300163DED /* WDailyTempView.m */,
+				35CAFD4B2092C0C000163DED /* WDailyTempView.xib */,
+				35CAFD4E2092C0C000163DED /* WHeaderView.h */,
+				35CAFD602092C0C300163DED /* WHeaderView.m */,
+				35CAFD512092C0C100163DED /* WHeaderView.xib */,
+				35CAFD5F2092C0C300163DED /* WHourlyPreCell.h */,
+				35CAFD4F2092C0C100163DED /* WHourlyPreCell.m */,
+				35CAFD542092C0C100163DED /* WHourlyPreCell.xib */,
+				35CAFD502092C0C100163DED /* WHourlyTempView.h */,
+				35CAFD5E2092C0C300163DED /* WHourlyTempView.m */,
+				35CAFD582092C0C200163DED /* WHourlyTempView.xib */,
+				35CAFD572092C0C200163DED /* WTodayWeatherHeader.h */,
+				35CAFD522092C0C100163DED /* WTodayWeatherHeader.m */,
+				35CAFD5A2092C0C200163DED /* WTodayWeatherHeader.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35CAFC8D2092BF9000163DED /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC8E2092BF9000163DED /* weathercn02 */,
+				35CAFCBC2092BF9000163DED /* lifeindex */,
+				35CAFCC42092BF9000163DED /* Simulator Screen Shot - iPhone 8 Plus - 2018-04-26 at 17.09.10.png */,
+				35CAFCC52092BF9000163DED /* wbg.jpg */,
+			);
+			path = Imgs;
+			sourceTree = "<group>";
+		};
+		35CAFC8E2092BF9000163DED /* weathercn02 */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFC8F2092BF9000163DED /* 49.png */,
+				35CAFC902092BF9000163DED /* 58.png */,
+				35CAFC912092BF9000163DED /* 天气图标对照表.txt */,
+				35CAFC922092BF9000163DED /* 99.png */,
+				35CAFC932092BF9000163DED /* 8.png */,
+				35CAFC942092BF9000163DED /* 9.png */,
+				35CAFC952092BF9000163DED /* 14.png */,
+				35CAFC962092BF9000163DED /* 28.png */,
+				35CAFC972092BF9000163DED /* 29.png */,
+				35CAFC982092BF9000163DED /* 15.png */,
+				35CAFC992092BF9000163DED /* 302.png */,
+				35CAFC9A2092BF9000163DED /* 17.png */,
+				35CAFC9B2092BF9000163DED /* 16.png */,
+				35CAFC9C2092BF9000163DED /* 301.png */,
+				35CAFC9D2092BF9000163DED /* 12.png */,
+				35CAFC9E2092BF9000163DED /* 13.png */,
+				35CAFC9F2092BF9000163DED /* 39.png */,
+				35CAFCA02092BF9000163DED /* 11.png */,
+				35CAFCA12092BF9000163DED /* 10.png */,
+				35CAFCA22092BF9000163DED /* 21.png */,
+				35CAFCA32092BF9000163DED /* 20.png */,
+				35CAFCA42092BF9000163DED /* 22.png */,
+				35CAFCA52092BF9000163DED /* 23.png */,
+				35CAFCA62092BF9000163DED /* 27.png */,
+				35CAFCA72092BF9000163DED /* 32.png */,
+				35CAFCA82092BF9000163DED /* 26.png */,
+				35CAFCA92092BF9000163DED /* 18.png */,
+				35CAFCAA2092BF9000163DED /* 30.png */,
+				35CAFCAB2092BF9000163DED /* 24.png */,
+				35CAFCAC2092BF9000163DED /* 25.png */,
+				35CAFCAD2092BF9000163DED /* 31.png */,
+				35CAFCAE2092BF9000163DED /* 19.png */,
+				35CAFCAF2092BF9000163DED /* 4.png */,
+				35CAFCB02092BF9000163DED /* 56.png */,
+				35CAFCB12092BF9000163DED /* 5.png */,
+				35CAFCB22092BF9000163DED /* 57.png */,
+				35CAFCB32092BF9000163DED /* 55.png */,
+				35CAFCB42092BF9000163DED /* 7.png */,
+				35CAFCB52092BF9000163DED /* 54.png */,
+				35CAFCB62092BF9000163DED /* 6.png */,
+				35CAFCB72092BF9000163DED /* 2.png */,
+				35CAFCB82092BF9000163DED /* 3.png */,
+				35CAFCB92092BF9000163DED /* 53.png */,
+				35CAFCBA2092BF9000163DED /* 1.png */,
+				35CAFCBB2092BF9000163DED /* 0.png */,
+			);
+			path = weathercn02;
+			sourceTree = "<group>";
+		};
+		35CAFCBC2092BF9000163DED /* lifeindex */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFCBD2092BF9000163DED /* 洗车02.png */,
+				35CAFCBE2092BF9000163DED /* 跑步02.png */,
+				35CAFCBF2092BF9000163DED /* 空调02.png */,
+				35CAFCC02092BF9000163DED /* 感冒02.png */,
+				35CAFCC12092BF9000163DED /* 空气污染02.png */,
+				35CAFCC22092BF9000163DED /* 穿衣02.png */,
+				35CAFCC32092BF9000163DED /* 紫外线02.png */,
+			);
+			path = lifeindex;
+			sourceTree = "<group>";
+		};
+		35CAFCC62092BF9100163DED /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFCC72092BF9100163DED /* WCBlock */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		35CAFCC72092BF9100163DED /* WCBlock */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFCC82092BF9100163DED /* UISwitch+WCBlock.h */,
+				35CAFCC92092BF9100163DED /* UITextView+WCBlock.m */,
+				35CAFCCA2092BF9100163DED /* UIGestureRecognizer+WCBlock.h */,
+				35CAFCCB2092BF9100163DED /* UIControl+WCBlock.m */,
+				35CAFCCC2092BF9100163DED /* NSObject+WCKVOBlock.m */,
+				35CAFCCD2092BF9100163DED /* UIView+WCBlock.h */,
+				35CAFCCE2092BF9100163DED /* UISegmentedControl+WCBlock.m */,
+				35CAFCCF2092BF9100163DED /* UITextField+WCBlock.m */,
+				35CAFCD02092BF9100163DED /* UISlider+WCBlock.h */,
+				35CAFCD12092BF9100163DED /* UIAlertView+WCBlock.h */,
+				35CAFCD22092BF9100163DED /* UIGestureRecognizer+WCBlock.m */,
+				35CAFCD32092BF9100163DED /* UITextView+WCBlock.h */,
+				35CAFCD42092BF9100163DED /* UISwitch+WCBlock.m */,
+				35CAFCD52092BF9100163DED /* NSObject+WCKVOBlock.h */,
+				35CAFCD62092BF9100163DED /* UIControl+WCBlock.h */,
+				35CAFCD72092BF9100163DED /* UISegmentedControl+WCBlock.h */,
+				35CAFCD82092BF9100163DED /* UIView+WCBlock.m */,
+				35CAFCD92092BF9100163DED /* UIAlertView+WCBlock.m */,
+				35CAFCDA2092BF9100163DED /* WCBlock.h */,
+				35CAFCDB2092BF9100163DED /* UISlider+WCBlock.m */,
+				35CAFCDC2092BF9100163DED /* UITextField+WCBlock.h */,
+			);
+			path = WCBlock;
+			sourceTree = "<group>";
+		};
+		35CAFCDD2092BF9100163DED /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFCE12092BF9100163DED /* Request.h */,
+				35CAFCDE2092BF9100163DED /* Request.m */,
+				35CAFCDF2092BF9100163DED /* HttpManager.h */,
+				35CAFCE02092BF9100163DED /* HttpManager.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		35CAFCE22092BF9100163DED /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFCE32092BF9100163DED /* ViewModel */,
+				35CAFCE62092BF9100163DED /* Wap */,
+				35CAFCE72092BF9100163DED /* Controller */,
+				35CAFCE82092BF9100163DED /* Public */,
+				35CAFCE92092BF9100163DED /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		35CAFCE32092BF9100163DED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFCE52092BF9100163DED /* BaseViewModel.h */,
+				35CAFCE42092BF9100163DED /* BaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		35CAFCE62092BF9100163DED /* Wap */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wap;
+			sourceTree = "<group>";
+		};
+		35CAFCE72092BF9100163DED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		35CAFCE82092BF9100163DED /* Public */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		35CAFCE92092BF9100163DED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		35CAFCEA2092BF9100163DED /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				35CAFCEC2092BF9100163DED /* LocationService.h */,
+				35CAFCEB2092BF9100163DED /* LocationService.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3B70AE4B8331D9DCA95D0154 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBB4E3E9AE3FAB25101CD1A1 /* Pods-WCWeaher(RAC+MVVM).debug.xcconfig */,
+				F9EBB851EF4B53878E1D4F4D /* Pods-WCWeaher(RAC+MVVM).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35CAFC2B2092BF2200163DED /* WCWeaher(RAC+MVVM) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CAFC582092BF2300163DED /* Build configuration list for PBXNativeTarget "WCWeaher(RAC+MVVM)" */;
+			buildPhases = (
+				7A21CBAB92C48CE8B3783E3B /* [CP] Check Pods Manifest.lock */,
+				35CAFC282092BF2200163DED /* Sources */,
+				35CAFC292092BF2200163DED /* Frameworks */,
+				35CAFC2A2092BF2200163DED /* Resources */,
+				4F17920C1E1D65DB5C609C06 /* [CP] Embed Pods Frameworks */,
+				1E751CFCF7C64E1EABF586C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WCWeaher(RAC+MVVM)";
+			productName = "WCWeaher(RAC+MVVM)";
+			productReference = 35CAFC2C2092BF2200163DED /* WCWeaher(RAC+MVVM).app */;
+			productType = "com.apple.product-type.application";
+		};
+		35CAFC432092BF2300163DED /* WCWeaher(RAC+MVVM)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CAFC5B2092BF2300163DED /* Build configuration list for PBXNativeTarget "WCWeaher(RAC+MVVM)Tests" */;
+			buildPhases = (
+				35CAFC402092BF2300163DED /* Sources */,
+				35CAFC412092BF2300163DED /* Frameworks */,
+				35CAFC422092BF2300163DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35CAFC462092BF2300163DED /* PBXTargetDependency */,
+			);
+			name = "WCWeaher(RAC+MVVM)Tests";
+			productName = "WCWeaher(RAC+MVVM)Tests";
+			productReference = 35CAFC442092BF2300163DED /* WCWeaher(RAC+MVVM)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35CAFC4E2092BF2300163DED /* WCWeaher(RAC+MVVM)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CAFC5E2092BF2300163DED /* Build configuration list for PBXNativeTarget "WCWeaher(RAC+MVVM)UITests" */;
+			buildPhases = (
+				35CAFC4B2092BF2300163DED /* Sources */,
+				35CAFC4C2092BF2300163DED /* Frameworks */,
+				35CAFC4D2092BF2300163DED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35CAFC512092BF2300163DED /* PBXTargetDependency */,
+			);
+			name = "WCWeaher(RAC+MVVM)UITests";
+			productName = "WCWeaher(RAC+MVVM)UITests";
+			productReference = 35CAFC4F2092BF2300163DED /* WCWeaher(RAC+MVVM)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35CAFC242092BF2200163DED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = weichengz;
+				TargetAttributes = {
+					35CAFC2B2092BF2200163DED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					35CAFC432092BF2300163DED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35CAFC2B2092BF2200163DED;
+					};
+					35CAFC4E2092BF2300163DED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 35CAFC2B2092BF2200163DED;
+					};
+				};
+			};
+			buildConfigurationList = 35CAFC272092BF2200163DED /* Build configuration list for PBXProject "WCWeaher(RAC+MVVM)" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35CAFC232092BF2200163DED;
+			productRefGroup = 35CAFC2D2092BF2200163DED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35CAFC2B2092BF2200163DED /* WCWeaher(RAC+MVVM) */,
+				35CAFC432092BF2300163DED /* WCWeaher(RAC+MVVM)Tests */,
+				35CAFC4E2092BF2300163DED /* WCWeaher(RAC+MVVM)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35CAFC2A2092BF2200163DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CAFD312092BF9100163DED /* 0.png in Resources */,
+				35CAFD1F2092BF9100163DED /* 18.png in Resources */,
+				35CAFD0B2092BF9100163DED /* 14.png in Resources */,
+				35CAFD102092BF9100163DED /* 17.png in Resources */,
+				35CAFD1C2092BF9100163DED /* 27.png in Resources */,
+				35CAFD0F2092BF9100163DED /* 302.png in Resources */,
+				35CAFD282092BF9100163DED /* 57.png in Resources */,
+				35CAFD2C2092BF9100163DED /* 6.png in Resources */,
+				35CAFD6A2092C0C300163DED /* WDailyPreCell.xib in Resources */,
+				35CAFD232092BF9100163DED /* 31.png in Resources */,
+				35CAFD132092BF9100163DED /* 12.png in Resources */,
+				35CAFD052092BF9100163DED /* 49.png in Resources */,
+				35CAFD1B2092BF9100163DED /* 23.png in Resources */,
+				35CAFCEF2092BF9100163DED /* LaunchViewController.xib in Resources */,
+				35CAFD0A2092BF9100163DED /* 9.png in Resources */,
+				35CAFD6B2092C0C300163DED /* WHourlyTempView.xib in Resources */,
+				35CAFD2D2092BF9100163DED /* 2.png in Resources */,
+				35CAFC392092BF2200163DED /* Assets.xcassets in Resources */,
+				35CAFD3A2092BF9100163DED /* wbg.jpg in Resources */,
+				35CAFD152092BF9100163DED /* 39.png in Resources */,
+				35CAFD292092BF9100163DED /* 55.png in Resources */,
+				35CAFCEE2092BF9100163DED /* LaunchScreen.storyboard in Resources */,
+				35CAFD642092C0C300163DED /* WDailyItem.xib in Resources */,
+				35CAFD342092BF9100163DED /* 空调02.png in Resources */,
+				35CAFD252092BF9100163DED /* 4.png in Resources */,
+				35CAFD322092BF9100163DED /* 洗车02.png in Resources */,
+				35CAFD142092BF9100163DED /* 13.png in Resources */,
+				35CAFD6C2092C0C300163DED /* WTodayWeatherHeader.xib in Resources */,
+				35CAFD212092BF9100163DED /* 24.png in Resources */,
+				35CAFD2B2092BF9100163DED /* 54.png in Resources */,
+				35CAFD092092BF9100163DED /* 8.png in Resources */,
+				35CAFD382092BF9100163DED /* 紫外线02.png in Resources */,
+				35CAFD062092BF9100163DED /* 58.png in Resources */,
+				35CAFD662092C0C300163DED /* WHeaderView.xib in Resources */,
+				35CAFD202092BF9100163DED /* 30.png in Resources */,
+				35CAFD2A2092BF9100163DED /* 7.png in Resources */,
+				35CAFD112092BF9100163DED /* 16.png in Resources */,
+				35CAFD122092BF9100163DED /* 301.png in Resources */,
+				35CAFD622092C0C300163DED /* WDailyTempView.xib in Resources */,
+				35CAFD682092C0C300163DED /* WHourlyPreCell.xib in Resources */,
+				35CAFCF22092BF9100163DED /* WHomeViewController.xib in Resources */,
+				35CAFD352092BF9100163DED /* 感冒02.png in Resources */,
+				35CAFD712092C0C300163DED /* WDailyIndexCell.xib in Resources */,
+				35CAFD082092BF9100163DED /* 99.png in Resources */,
+				35CAFD332092BF9100163DED /* 跑步02.png in Resources */,
+				35CAFD0D2092BF9100163DED /* 29.png in Resources */,
+				35CAFD1E2092BF9100163DED /* 26.png in Resources */,
+				35CAFD0C2092BF9100163DED /* 28.png in Resources */,
+				35CAFD262092BF9100163DED /* 56.png in Resources */,
+				35CAFD2E2092BF9100163DED /* 3.png in Resources */,
+				35CAFD242092BF9100163DED /* 19.png in Resources */,
+				35CAFD372092BF9100163DED /* 穿衣02.png in Resources */,
+				35CAFD392092BF9100163DED /* Simulator Screen Shot - iPhone 8 Plus - 2018-04-26 at 17.09.10.png in Resources */,
+				35CAFD302092BF9100163DED /* 1.png in Resources */,
+				35CAFD192092BF9100163DED /* 20.png in Resources */,
+				35CAFD162092BF9100163DED /* 11.png in Resources */,
+				35CAFD072092BF9100163DED /* 天气图标对照表.txt in Resources */,
+				35CAFD2F2092BF9100163DED /* 53.png in Resources */,
+				35CAFD222092BF9100163DED /* 25.png in Resources */,
+				35CAFD1D2092BF9100163DED /* 32.png in Resources */,
+				35CAFD182092BF9100163DED /* 21.png in Resources */,
+				35CAFD272092BF9100163DED /* 5.png in Resources */,
+				35CAFD172092BF9100163DED /* 10.png in Resources */,
+				35CAFD362092BF9100163DED /* 空气污染02.png in Resources */,
+				35CAFD0E2092BF9100163DED /* 15.png in Resources */,
+				35CAFD1A2092BF9100163DED /* 22.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CAFC422092BF2300163DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CAFC4D2092BF2300163DED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E751CFCF7C64E1EABF586C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WCWeaher(RAC+MVVM)/Pods-WCWeaher(RAC+MVVM)-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCWeaher(RAC+MVVM)/Pods-WCWeaher(RAC+MVVM)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F17920C1E1D65DB5C609C06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WCWeaher(RAC+MVVM)/Pods-WCWeaher(RAC+MVVM)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A21CBAB92C48CE8B3783E3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WCWeaher(RAC+MVVM)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35CAFC282092BF2200163DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CAFD462092BF9100163DED /* HttpManager.m in Sources */,
+				35CAFD3E2092BF9100163DED /* UISegmentedControl+WCBlock.m in Sources */,
+				35CAFD3D2092BF9100163DED /* NSObject+WCKVOBlock.m in Sources */,
+				35CAFD702092C0C300163DED /* WHeaderView.m in Sources */,
+				35CAFD6D2092C0C300163DED /* WDailyItem.m in Sources */,
+				35CAFD442092BF9100163DED /* UISlider+WCBlock.m in Sources */,
+				35CAFD3F2092BF9100163DED /* UITextField+WCBlock.m in Sources */,
+				35CAFCED2092BF9100163DED /* AppDelegate.m in Sources */,
+				35CAFD652092C0C300163DED /* WHourlyPreCell.m in Sources */,
+				35CAFD3B2092BF9100163DED /* UITextView+WCBlock.m in Sources */,
+				35CAFC3F2092BF2200163DED /* main.m in Sources */,
+				35CAFD452092BF9100163DED /* Request.m in Sources */,
+				35CAFD422092BF9100163DED /* UIView+WCBlock.m in Sources */,
+				35CAFD692092C0C300163DED /* WDailyPreCell.m in Sources */,
+				35CAFCF32092BF9100163DED /* WHomeViewController.m in Sources */,
+				35CAFD6E2092C0C300163DED /* WDailyTempView.m in Sources */,
+				35CAFCF42092BF9100163DED /* JSWeatherModel.m in Sources */,
+				35CAFD412092BF9100163DED /* UISwitch+WCBlock.m in Sources */,
+				35CAFD6F2092C0C300163DED /* WHourlyTempView.m in Sources */,
+				35CAFD402092BF9100163DED /* UIGestureRecognizer+WCBlock.m in Sources */,
+				35CAFCF02092BF9100163DED /* LaunchViewController.m in Sources */,
+				35CAFCF12092BF9100163DED /* HomeViewModel.m in Sources */,
+				35CAFD472092BF9100163DED /* BaseViewModel.m in Sources */,
+				35CAFD432092BF9100163DED /* UIAlertView+WCBlock.m in Sources */,
+				35CAFD3C2092BF9100163DED /* UIControl+WCBlock.m in Sources */,
+				35CAFD482092BF9100163DED /* LocationService.m in Sources */,
+				35CAFD672092C0C300163DED /* WTodayWeatherHeader.m in Sources */,
+				35CAFD632092C0C300163DED /* WDailyIndexCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CAFC402092BF2300163DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CAFC492092BF2300163DED /* WCWeaher_RAC_MVVM_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CAFC4B2092BF2300163DED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CAFC542092BF2300163DED /* WCWeaher_RAC_MVVM_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35CAFC462092BF2300163DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35CAFC2B2092BF2200163DED /* WCWeaher(RAC+MVVM) */;
+			targetProxy = 35CAFC452092BF2300163DED /* PBXContainerItemProxy */;
+		};
+		35CAFC512092BF2300163DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35CAFC2B2092BF2200163DED /* WCWeaher(RAC+MVVM) */;
+			targetProxy = 35CAFC502092BF2300163DED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35CAFC562092BF2300163DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35CAFC572092BF2300163DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35CAFC592092BF2300163DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBB4E3E9AE3FAB25101CD1A1 /* Pods-WCWeaher(RAC+MVVM).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D448D4BJ77;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCWeaher(RAC+MVVM)/PrefixHeader.pch";
+				INFOPLIST_FILE = "WCWeaher(RAC+MVVM)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-163.weicheng0-0.WCWeaher-RAC-MVVM-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35CAFC5A2092BF2300163DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9EBB851EF4B53878E1D4F4D /* Pods-WCWeaher(RAC+MVVM).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D448D4BJ77;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCWeaher(RAC+MVVM)/PrefixHeader.pch";
+				INFOPLIST_FILE = "WCWeaher(RAC+MVVM)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-163.weicheng0-0.WCWeaher-RAC-MVVM-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35CAFC5C2092BF2300163DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D448D4BJ77;
+				INFOPLIST_FILE = "WCWeaher(RAC+MVVM)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-163.weicheng0-0.WCWeaher-RAC-MVVM-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCWeaher(RAC+MVVM).app/WCWeaher(RAC+MVVM)";
+			};
+			name = Debug;
+		};
+		35CAFC5D2092BF2300163DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D448D4BJ77;
+				INFOPLIST_FILE = "WCWeaher(RAC+MVVM)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-163.weicheng0-0.WCWeaher-RAC-MVVM-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCWeaher(RAC+MVVM).app/WCWeaher(RAC+MVVM)";
+			};
+			name = Release;
+		};
+		35CAFC5F2092BF2300163DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D448D4BJ77;
+				INFOPLIST_FILE = "WCWeaher(RAC+MVVM)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-163.weicheng0-0.WCWeaher-RAC-MVVM-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WCWeaher(RAC+MVVM)";
+			};
+			name = Debug;
+		};
+		35CAFC602092BF2300163DED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D448D4BJ77;
+				INFOPLIST_FILE = "WCWeaher(RAC+MVVM)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-163.weicheng0-0.WCWeaher-RAC-MVVM-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WCWeaher(RAC+MVVM)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35CAFC272092BF2200163DED /* Build configuration list for PBXProject "WCWeaher(RAC+MVVM)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CAFC562092BF2300163DED /* Debug */,
+				35CAFC572092BF2300163DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CAFC582092BF2300163DED /* Build configuration list for PBXNativeTarget "WCWeaher(RAC+MVVM)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CAFC592092BF2300163DED /* Debug */,
+				35CAFC5A2092BF2300163DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CAFC5B2092BF2300163DED /* Build configuration list for PBXNativeTarget "WCWeaher(RAC+MVVM)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CAFC5C2092BF2300163DED /* Debug */,
+				35CAFC5D2092BF2300163DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CAFC5E2092BF2300163DED /* Build configuration list for PBXNativeTarget "WCWeaher(RAC+MVVM)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CAFC5F2092BF2300163DED /* Debug */,
+				35CAFC602092BF2300163DED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35CAFC242092BF2200163DED /* Project object */;
+}

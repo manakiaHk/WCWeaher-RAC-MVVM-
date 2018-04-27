@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="322" id="KGk-i7-Jjw" customClass="WDailyPreCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="322"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="321.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IlL-fd-1zO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="321.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ogw-42-r24">
+                                <rect key="frame" x="0.0" y="5" width="320" height="40"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="日历.png" translatesAutoresizingMaskIntoConstraints="NO" id="9TQ-WY-KIl">
+                                        <rect key="frame" x="10" y="12.5" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="Ka4-Xl-JmG"/>
+                                            <constraint firstAttribute="width" constant="15" id="bKF-wX-mXL"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每日预报" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qH0-oE-Qhb">
+                                        <rect key="frame" x="35" y="8.5" width="82" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bw0-za-IO1" userLabel="line">
+                                        <rect key="frame" x="0.0" y="39" width="320" height="1"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="0.3046875" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="0.5" id="ZpP-pm-gIn"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.20745933224109589" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="9TQ-WY-KIl" firstAttribute="centerY" secondItem="ogw-42-r24" secondAttribute="centerY" id="2bm-64-9gL"/>
+                                    <constraint firstItem="qH0-oE-Qhb" firstAttribute="centerY" secondItem="9TQ-WY-KIl" secondAttribute="centerY" id="2fQ-KY-r58"/>
+                                    <constraint firstItem="9TQ-WY-KIl" firstAttribute="leading" secondItem="ogw-42-r24" secondAttribute="leading" constant="10" id="DO3-Ko-hag"/>
+                                    <constraint firstAttribute="bottom" secondItem="bw0-za-IO1" secondAttribute="bottom" id="Y52-Vt-UFP"/>
+                                    <constraint firstItem="qH0-oE-Qhb" firstAttribute="leading" secondItem="9TQ-WY-KIl" secondAttribute="trailing" constant="10" id="ggF-lo-INX"/>
+                                    <constraint firstAttribute="trailing" secondItem="bw0-za-IO1" secondAttribute="trailing" id="hLN-Io-CyL"/>
+                                    <constraint firstAttribute="height" constant="40" id="rGL-AB-mdM"/>
+                                    <constraint firstItem="bw0-za-IO1" firstAttribute="leading" secondItem="ogw-42-r24" secondAttribute="leading" id="rHN-iH-GkB"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ksM-C9-Brs">
+                                <rect key="frame" x="0.0" y="50" width="320" height="272"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ogw-42-r24" firstAttribute="leading" secondItem="IlL-fd-1zO" secondAttribute="leading" id="I3g-Xd-K8f"/>
+                            <constraint firstItem="ogw-42-r24" firstAttribute="top" secondItem="IlL-fd-1zO" secondAttribute="top" constant="5" id="LDK-4f-vMa"/>
+                            <constraint firstAttribute="bottom" secondItem="ksM-C9-Brs" secondAttribute="bottom" id="UW6-I3-aul"/>
+                            <constraint firstItem="ksM-C9-Brs" firstAttribute="leading" secondItem="IlL-fd-1zO" secondAttribute="leading" id="ajv-Xq-3LU"/>
+                            <constraint firstItem="ksM-C9-Brs" firstAttribute="top" secondItem="ogw-42-r24" secondAttribute="bottom" constant="5" id="eWA-dS-PNE"/>
+                            <constraint firstAttribute="trailing" secondItem="ksM-C9-Brs" secondAttribute="trailing" id="mp7-br-oPT"/>
+                            <constraint firstAttribute="trailing" secondItem="ogw-42-r24" secondAttribute="trailing" id="shJ-bE-8df"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IlL-fd-1zO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="1vq-IB-dhj"/>
+                    <constraint firstItem="IlL-fd-1zO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="J8i-BJ-0aM"/>
+                    <constraint firstAttribute="trailing" secondItem="IlL-fd-1zO" secondAttribute="trailing" id="hHy-z4-HjR"/>
+                    <constraint firstAttribute="bottom" secondItem="IlL-fd-1zO" secondAttribute="bottom" id="mKW-xW-eHz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="icon" destination="9TQ-WY-KIl" id="akX-0W-rjE"/>
+                <outlet property="scrollView" destination="ksM-C9-Brs" id="4IN-SL-DCq"/>
+            </connections>
+            <point key="canvasLocation" x="65" y="10"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="日历.png" width="64" height="64"/>
+    </resources>
+</document>

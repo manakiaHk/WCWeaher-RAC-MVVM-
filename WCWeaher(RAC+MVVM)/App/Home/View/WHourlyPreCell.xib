@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="154" id="KGk-i7-Jjw" customClass="WHourlyPreCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="154"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="153.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWQ-kE-cHw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="153.5"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wT9-IJ-teV">
+                                <rect key="frame" x="0.0" y="5" width="320" height="40"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="时间.png" translatesAutoresizingMaskIntoConstraints="NO" id="raD-AN-69I">
+                                        <rect key="frame" x="10" y="12.5" width="15" height="15"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="15" id="7Wb-f8-gPu"/>
+                                            <constraint firstAttribute="width" constant="15" id="U6H-xv-dHx"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="24小时预报" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLK-dw-jh6">
+                                        <rect key="frame" x="35" y="8.5" width="105.5" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HAD-Ah-bWQ" userLabel="line">
+                                        <rect key="frame" x="0.0" y="39" width="320" height="1"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="0.3046875" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="0.5" id="WnA-mx-VYe"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.1952857448630137" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="HAD-Ah-bWQ" firstAttribute="leading" secondItem="wT9-IJ-teV" secondAttribute="leading" id="7Kw-AZ-Lww"/>
+                                    <constraint firstAttribute="bottom" secondItem="HAD-Ah-bWQ" secondAttribute="bottom" id="AMO-Bz-wUI"/>
+                                    <constraint firstItem="raD-AN-69I" firstAttribute="leading" secondItem="wT9-IJ-teV" secondAttribute="leading" constant="10" id="My7-D2-OFY"/>
+                                    <constraint firstAttribute="height" constant="40" id="TGS-O3-72R"/>
+                                    <constraint firstItem="raD-AN-69I" firstAttribute="centerY" secondItem="wT9-IJ-teV" secondAttribute="centerY" id="XMF-5E-oCs"/>
+                                    <constraint firstItem="lLK-dw-jh6" firstAttribute="centerY" secondItem="raD-AN-69I" secondAttribute="centerY" id="hoT-Fc-ZPU"/>
+                                    <constraint firstAttribute="trailing" secondItem="HAD-Ah-bWQ" secondAttribute="trailing" id="kq5-Xq-qdw"/>
+                                    <constraint firstItem="lLK-dw-jh6" firstAttribute="leading" secondItem="raD-AN-69I" secondAttribute="trailing" constant="10" id="xJ9-RF-iLK"/>
+                                </constraints>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gmY-mY-amS">
+                                <rect key="frame" x="0.0" y="50" width="320" height="104"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wT9-IJ-teV" secondAttribute="trailing" id="1x5-je-fKh"/>
+                            <constraint firstItem="wT9-IJ-teV" firstAttribute="leading" secondItem="qWQ-kE-cHw" secondAttribute="leading" id="9Pw-cR-ko3"/>
+                            <constraint firstItem="gmY-mY-amS" firstAttribute="leading" secondItem="qWQ-kE-cHw" secondAttribute="leading" id="GPe-7N-fE3"/>
+                            <constraint firstItem="wT9-IJ-teV" firstAttribute="top" secondItem="qWQ-kE-cHw" secondAttribute="top" constant="5" id="LlL-kV-L7f"/>
+                            <constraint firstAttribute="bottom" secondItem="gmY-mY-amS" secondAttribute="bottom" id="Ogg-Hh-Gi2"/>
+                            <constraint firstItem="gmY-mY-amS" firstAttribute="top" secondItem="wT9-IJ-teV" secondAttribute="bottom" constant="5" id="g50-ea-KbO"/>
+                            <constraint firstAttribute="trailing" secondItem="gmY-mY-amS" secondAttribute="trailing" id="ucN-R7-iPm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="qWQ-kE-cHw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="75Q-C1-9rn"/>
+                    <constraint firstItem="qWQ-kE-cHw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Bpa-G3-gLr"/>
+                    <constraint firstAttribute="trailing" secondItem="qWQ-kE-cHw" secondAttribute="trailing" id="dBw-Fe-NYr"/>
+                    <constraint firstAttribute="bottom" secondItem="qWQ-kE-cHw" secondAttribute="bottom" id="qZu-2O-aqW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="scrollView" destination="gmY-mY-amS" id="H8M-ez-7zS"/>
+            </connections>
+            <point key="canvasLocation" x="214" y="-5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="时间.png" width="64" height="64"/>
+    </resources>
+</document>
